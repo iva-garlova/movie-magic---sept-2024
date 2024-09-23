@@ -3,6 +3,6 @@ import homeController from './controllers/homeController.js';
 
 const router = Router();
 
-app.use(homeController);
+router.use(homeController);
 
 export default router;
