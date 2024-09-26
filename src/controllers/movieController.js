@@ -16,10 +16,10 @@ router.post('/create', async (req, res) => {
 });
 
 router.get('/search', async (req, res) => {
-    const querry = req.querry;
-    const movies = await movieService.getAll(querry);
+    const filter = req.querry;
+    const movies = await movieService.getAll(filter);
     
-res.render('home', {isSearch: true, movies})
+res.render('home', {isSearch: true, movies, filter})
 });
 
 
