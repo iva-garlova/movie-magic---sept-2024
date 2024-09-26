@@ -7,6 +7,7 @@ import movieData from "../data/movieData.js";
 
     const create = (movie) =>{
         movie.id = uniqid();
+        movie.rating = Number(movie.rating);
 
         return movieData.create(movie);
     };

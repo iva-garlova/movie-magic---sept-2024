@@ -18,8 +18,19 @@ router.post('/create', async (req, res) => {
 router.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
 
-    const movie = await movieService.getOne(movieId)
+    const movie = await movieService.getOne(movieId);
+
+movie.ratingView = getratingViewData(movie.rating)
+
     res.render('movies/details', { movie })
 })
+
+function getratingViewData(rating){
+
+    if(!Number.isInteger(rating)){
+        return 'n\\a';
+    }
+    return '&#x2605'.repeat(rating)
+}
 
 export default router;
