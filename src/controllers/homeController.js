@@ -4,11 +4,10 @@ import movieService from "../services/movieService.js";
 
 const router = Router();
 
+
 function toArray(document) {
     return document.map(document => document.toObject());
 }
-
-
 
 router.get('/', async (req, res) => {
     const movies = await movieService.getAll();

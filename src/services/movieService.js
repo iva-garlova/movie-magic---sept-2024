@@ -4,7 +4,7 @@ import Movie from '../models/Movie.js';
    
     const getAll = async (filter = {}) =>{
 
-    let movies = await Movie.find();
+    let movies =  await Movie.find();
     
 
     if(filter.search){
