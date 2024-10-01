@@ -1,7 +1,7 @@
 {
   "movies": [
     {
-      "id": "1",
+      "_id": "1",
       "title": "Home Alone",
       "imageUrl": "/img/home-alone.jpeg",
       "genre": "Comedy",
@@ -9,7 +9,7 @@
       "description": "It is Christmas time and the McCallister family is preparing for a vacation in Paris, France But the youngest in the family, Kevin (Macaulay Culkin), got into a scuffle with his older brother Buzz (Devin Ratray) and was sent to his room, which is on the third floor of his house. Then, the next morning, while the rest of the family was in a rush to make it to the airport on time, they completely forgot about Kevin, who now has the houseall to himself. Being home alone was fun for Kevin, having a pizza all to himself, jumping on his parents' bed, and making a mess. Then, Kevin discovers about two burglars, Harry (Joe Pesci) and Marv (Daniel Stern), about to rob his house on Christmas Eve. Kevin acts quickly by wiring his own house with makeshift booby traps to stop the burglars and to bring them to justice."
     },
     {
-      "id": "2",
+      "_id": "2",
       "name": "The-Litlle-Mermaid",
       "imageUrl": "/img/the-little-mermaid.jpg",
       "rating": 4,
@@ -17,7 +17,7 @@
       "description": "The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure.Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric.Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land."
     },
     {
-      "id": "3",
+      "_id": "3",
       "name": "Jungle-Cruise",
       "imageUrl": "/img/jungle-cruise.jpeg",
       "genre": "Adventure",
@@ -32,7 +32,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRl1rv4toIZ5sXBYEmQ82kzISysZTAM2VPF4LvsudXsDYS5fNlH",
       "rating": 9,
       "description": "A magistrate at an isolated outpost reevaluates his loyalty to his nation when an army colonel uses cruel tactics to interrogate the locals about a possible uprising.",
-      "id": "da2rvn4qwm1f1zze3"
+      "_id": "da2rvn4qwm1f1zze3"
     },
     {
       "title": "Interstellar",
@@ -42,7 +42,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
       "rating": 10,
       "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-      "id": "da2rvn8wwm1f28naf"
+      "_id": "da2rvn8wwm1f28naf"
     }
   ]
 }
